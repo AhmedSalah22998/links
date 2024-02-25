@@ -32,10 +32,10 @@ const app = detectOS();
 // Example usage
 if (isMobileDevice()) {
   console.log("This is a mobile device.");
-  document.body.innerHTML = "This is a mobile device ...";
-  document.body.innerHTML = "Operating System:" + app;
+  document.body.innerHTML = "This is a mobile device ......";
+  document.body.innerHTML = "Operating System:..." + app;
   console.log("Operating System:", detectOS());
 } else {
-  document.body.innerHTML = "This is not a mobile device.";
+  document.body.innerHTML = "This is not a mobile device....";
   console.log("This is not a mobile device.");
 }
